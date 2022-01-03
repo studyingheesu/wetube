@@ -1,0 +1,18 @@
+{
+  "name": "wetube",
+  "version": "1.0.0",
+  "description": "The best way to watch videos.",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studyingheesu/wetube.git"
+  },
+  "author": "studyingheesu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/studyingheesu/wetube/issues"
+  },
+  "homepage": "https://github.com/studyingheesu/wetube#readme"
+}
