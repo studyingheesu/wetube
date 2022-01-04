@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "The best way to watch videos.",
   "scripts": {
-    "start": "node index.js"
+    "dev": "nodemon --exec babel-node index.js"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,14 @@
   "bugs": {
     "url": "https://github.com/studyingheesu/wetube/issues"
   },
-  "homepage": "https://github.com/studyingheesu/wetube#readme"
+  "homepage": "https://github.com/studyingheesu/wetube#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/node": "^7.16.7",
+    "@babel/preset-env": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
 }
