@@ -11,6 +11,10 @@ const logerMiddleware = (req, res, next) => {
   console.log(req.path);
   next();
 };
+
+app.set('view engine', 'pug');
+app.set('views', process.cwd() + '/src/views');
+
 app.use(logerMiddleware);
 
 app.use('/', globalRouter);
